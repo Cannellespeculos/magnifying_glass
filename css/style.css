@@ -1,0 +1,30 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 800px;
+}
+
+img:hover {
+    cursor: zoom-in;
+}
+
+div {
+    position: relative;
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#imgZoom {
+    scale: 5;
+    position: absolute;
+    transform: translate(50%, 50%);
+
+}
