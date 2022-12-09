@@ -5,7 +5,7 @@ let rect = img.getBoundingClientRect();
 
 img.addEventListener("mousemove", (ev) => {
     const cursor_x = ev.clientX - 350
-    const cursor_y = ev.clientY - 270
+    const cursor_y = ev.clientY - 260
 
     const img_x = img.offsetLeft
     const img_y = img.offsetTop
